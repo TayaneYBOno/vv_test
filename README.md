@@ -150,7 +150,7 @@ Hooks are blocks of code that can run at various points in the Cucumber executio
 
 Where a hook is defined has no impact on what scenarios or steps it is run for.
 
-**Service Object**
+**Page Object**
 
 In the "*support*" folder, we have "*pages*".
 
