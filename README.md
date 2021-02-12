@@ -1,13 +1,13 @@
 # vv_test
 VV test
 
-1. [Install and Setup ](https://github.com/TayaneYBOno/vv_test/edit/main/README.md#install-and-setup)  
+1. [Install and Setup ](https://github.com/TayaneYBOno/vv_test/main/README.md#install-and-setup)  
 
-2. [Tests Run](https://github.com/TayaneYBOno/vv_test/edit/main/README.md#tests-run)
+2. [Tests Run](https://github.com/TayaneYBOno/vv_test/main/README.md#tests-run)
 
-3. [Report](https://github.com/TayaneYBOno/vv_test/edit/main/README.md#report) 
+3. [Report](https://github.com/TayaneYBOno/vv_test/main/README.md#report) 
 
-4. [Project Structure](https://github.com/TayaneYBOno/vv_test/edit/main/README.md#project-structure) 
+4. [Project Structure](https://github.com/TayaneYBOno/vv_test/main/README.md#project-structure) 
 
 > # Install and Setup 
 
