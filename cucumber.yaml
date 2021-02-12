@@ -1,0 +1,14 @@
+---
+  default: -p qa -p chrome -p pretty -p json -p not_run --publish-quiet
+  ci: -p dev -p headless -p json -p progress
+  local: ENV_TYPE=local
+  dev: ENV_TYPE=dev
+  qa: ENV_TYPE=qa
+  firefox: BROWSER=firefox
+  chrome: BROWSER=chrome
+  headless: BROWSER=headless
+  html: --format html --out=log/report.html
+  json: --format json --out=log/report.json
+  pretty: --format pretty
+  progress: --format progress
+  not_run: --tags 'not @manual and not @not_implemented'
