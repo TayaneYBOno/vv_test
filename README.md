@@ -22,9 +22,11 @@ This project using Ruby as a language. So we have to install ruby to runs this p
 3. Install. 
     
     a. Keep the default installation.
+    
     b. Select all options on "Select Components" step.
     Note: The message displayed on the bottom inform that it will be needed to install some dependences. 
         Because that after the Ruby installation, we have to execute “ridk install” (it is the devkit install).
+        
     c. Unselect the option for install ‘ridk’ and development toolchain.
 
 4.  Access Console, and check if ruby is installed correctly.
@@ -87,11 +89,11 @@ With the bundler we can use ruby libraries in a simple way. So we can define our
     
     * With SSH:
         
-        `git@github.com:TayaneYBOno/vv_test.git`
+        `git clone git@github.com:TayaneYBOno/vv_test.git`
 
     * Or with https:
         
-        `https://github.com/TayaneYBOno/vv_test.git`
+        `git clone https://github.com/TayaneYBOno/vv_test.git`
 
 2. On Console, access the root of the project and execute:
 
