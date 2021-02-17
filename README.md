@@ -153,7 +153,7 @@ Hooks are blocks of code that can run at various points in the Cucumber executio
 
 Where a hook is defined has no impact on what scenarios or steps it is run for.
 
-**Page Object**
+**Page Objects**
 
 In the "*support*" folder, we have "*pages*".
 
@@ -161,7 +161,7 @@ On "*pages*" files, we implement the methods that should be used on step definit
 
 On "*pages*" we keep the classes files included as requests (following best practices, using page objects).
 
-In this way, we are going to follow the best practices, the partners "page object".
+In this way, we are going to follow the best practices, the partners "page objects".
 
 All files in this folder, must ending with "_page.rb".
 
@@ -183,10 +183,12 @@ In this folder, we usually create the files that contain mass of tests, and this
 
 **Env**
 
-When we added the gem HTTParty to our "Gemfile" file and run the "bundle install", we just install the HTTParty in our project. But we need to configure it.
+On 'env.rb' we have the gems' configurations of the project.
+
+When we added the gem Capybara to our "Gemfile" file and run the "bundle install", we just install the Capybara in our project. But we need to configure it.
 
 Inside the ‘*support*’ folder, which was generated when we executed cucumber, we have the ‘*env.rb*’ file.
-We access this file and import the fundamental libraries that we will use to automate API tests.
+We access this file and import the fundamental libraries that we will use to automate tests.
 
 The *env.rb* file is our configuration file, which will be read first when we run cucumber.
 
